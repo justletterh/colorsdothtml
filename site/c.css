@@ -1,0 +1,89 @@
+:root {
+	--red: linear-gradient(90deg, #762020 0% 12.5%, #6a3131 12.5% 25%, #b61d1d 25% 37.5%, #ff0000 37.5% 50%, #9c4040 50% 62.5%, #ff0057 62.5% 75%, #a57575 75% 87.5%, #e57f7f 87.5% 100%);
+	--orange: linear-gradient(90deg, #ff4d00 0% 12.5%, #f56c00 12.5% 25%, #ff6700 25% 37.5%, #ec9b02 37.5% 50%, #f97c23 50% 62.5%, #ffa500 62.5% 75%, #ffc958 75% 87.5%, #ffbe8e 87.5% 100%);
+	--yellow: linear-gradient(90deg, #ebff00 0% 12.5%, #fff702 12.5% 25%, #ffff00 25% 37.5%, #ffe83b 37.5% 50%, #fafa37 50% 62.5%, #f4ff42 62.5% 75%, #feffaa 75% 87.5%, #fbffb8 87.5% 100%);
+	--green: linear-gradient(90deg, #008000 0% 12.5%, #1b4c20 12.5% 25%, #85b900 25% 37.5%, #63ff00 37.5% 50%, #9fe022 50% 62.5%, #02ffc2 62.5% 75%, #d6ff00 75% 87.5%, #72fb89 87.5% 100%);
+	--blue: linear-gradient(90deg, #0b7870 0% 12.5%, #0000ff 12.5% 25%, #23c4b9 25% 37.5%, #4372f0 37.5% 50%, #65a6ba 50% 62.5%, #47fff2 62.5% 75%, #87ceeb 75% 87.5%, #a1fffd 87.5% 100%);
+	--indigo: linear-gradient(90deg, #39003a 0% 12.5%, #2d004e 12.5% 25%, #2f1980 25% 37.5%, #4b0082 37.5% 50%, #442377 50% 62.5%, #401a99 62.5% 75%, #803399 75% 87.5%, #7d2bdb 87.5% 100%);
+	--violet: linear-gradient(90deg, #a24db2 0% 12.5%, #917e98 12.5% 25%, #e345b3 25% 37.5%, #ff00ff 37.5% 50%, #ff8989 50% 62.5%, #ee82ee 62.5% 75%, #d4a0ec 75% 87.5%, #ffcade 87.5% 100%);
+	--brown: linear-gradient(90deg, #3a2714 0% 12.5%, #734c29 12.5% 25%, #795c34 25% 37.5%, #b75a04 37.5% 50%, #a67041 50% 62.5%, #af7c74 62.5% 75%, #b78876 75% 87.5%, #b6a29a 87.5% 100%);
+	--tan: linear-gradient(90deg, #bfa978 0% 12.5%, #e3c2b5 12.5% 25%, #d9c9ba 25% 37.5%, #f3c1ad 37.5% 50%, #ffd1a6 50% 62.5%, #e7ddb3 62.5% 75%, #ffefd8 75% 87.5%, #fff6d2 87.5% 100%);
+	--grey: linear-gradient(90deg, #000000 0% 12.5%, #242424 12.5% 25%, #434343 25% 37.5%, #656565 37.5% 50%, #898989 50% 62.5%, #afafaf 62.5% 75%, #d6d6d6 75% 87.5%, #ffffff 87.5% 100%);
+}
+
+.b {
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	left: 0;
+}
+
+.b1 {
+	top: 0;
+	background: #ff0000;
+	background: var(--red);
+	z-index: 1;
+}
+
+.b2 {
+	top: 10%;
+	background: #ffa500;
+	background: var(--orange);
+	z-index: 2;
+}
+
+.b3 {
+	top: 20%;
+	background: #ffff00;
+	background: var(--yellow);
+	z-index: 3;
+}
+
+.b4 {
+	top: 30%;
+	background: #008000;
+	background: var(--green);
+	z-index: 4;
+}
+
+.b5 {
+	top: 40%;
+	background: #0000ff;
+	background: var(--blue);
+	z-index: 5;
+}
+
+.b6 {
+	top: 50%;
+	background: #4b0082;
+	background: var(--indigo);
+	z-index: 6;
+}
+
+.b7 {
+	top: 60%;
+	background: #ee82ee;
+	background: var(--violet);
+	z-index: 7;
+}
+
+.b8 {
+	top: 70%;
+	background: #734c29;
+	background: var(--brown);
+	z-index: 8;
+}
+
+.b9 {
+	top: 80%;
+	background: #ffd1a6;
+	background: var(--tan);
+	z-index: 9;
+}
+
+.b10 {
+	top: 90%;
+	background: #000000;
+	background: var(--grey);
+	z-index: 10;
+}
